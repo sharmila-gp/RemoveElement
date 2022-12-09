@@ -1,63 +1,65 @@
-*{
-	box-sizing:border-box;
-	padding:0px;
-	margin:0px;
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
-.inputclass{
-	width:30%;
-	margin: 20px auto;
-	background-color:grey; 	
-	padding:20px;
-	border-radius:10px;
+.inputclass {
+  width: 30%;
+  margin: 20px auto;
+  background-color: grey;
+  padding: 20px;
+  border-radius: 10px;
 }
-#name,#detail,#btn1{
-	display:block;
-	font-size:20px;
-	border:2px solid black;
-	margin:10px auto;
-	padding:5px 10px;
-	border-radius:5px;	
+#name,
+#detail,
+#btn1 {
+  display: block;
+  font-size: 20px;
+  border: 2px solid black;
+  margin: 10px auto;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
-.container{
-	width:80%;
-	display:flex;
-	flex-wrap:wrap;
-	border:1px solid black;
-	padding:10px;
-	margin:0px auto;
-	border-radius:10px;
-	justify-content:center;
+.container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0px auto;
+  border-radius: 10px;
+  justify-content: center;
 }
-.common{
-	margin:10px;
-	padding:5px;
-	width:16%;
-	border:2px solid black;
-	border-radius:5px;
-	position:relative;
+.common {
+  margin: 10px;
+  padding: 5px;
+  width: 16%;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: relative;
 }
-.stuName{
-	font-weight:bold;
-	font-size:18px;
-	margin-bottom:5px;
+.stuName {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
-.closeBtn{
-	position:absolute;
-	top:0;
-	right:1px;
-	font-size:20px;
-	color:black;
-	background-color:white;
-	border:none;
+.closeBtn {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border: none;
 }
 
-.editBtn{
-	position:absolute;
-	top:0;
-	right:25px;
-	font-size:20px;
-	color:black;
-	background-color:white;
-	border:none;
+.editBtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border: none;
 }
