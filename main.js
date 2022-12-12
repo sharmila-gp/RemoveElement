@@ -58,9 +58,7 @@ function createContent() {
         var element2 = document.getElementById("col" + arr[1]);
         a_input.value = element1.innerHTML;
         b_input.value = element2.innerHTML;
-		var temp = document.createElement("span");
-		temp.setAttribute("id",arr[1]);
-		document.body.appendChild(temp);
+		a_input.setAttribute("data-temp",arr[1]);
       };
       edit.innerHTML = '<i class="icofont-pencil"></i>';
       div1.appendChild(edit);
@@ -68,11 +66,9 @@ function createContent() {
     }
   }
   else if(c_btn.innerHTML == "Update"){
-	var tag = document.getElementsByTagName("span");
-	var j = tag[0].getAttribute("id"); 
+	var j = a_input.getAttribute("data-temp"); 
 	var elem1 = document.getElementById("st_name"+j);
 	var elem2 = document.getElementById("col"+j);
-	tag[0].remove();
 	elem1.innerHTML = a_input.value;
 	elem2.innerHTML = b_input.value;
 	c_btn.innerHTML = "Submit";
